@@ -19,8 +19,10 @@ function readInteger(value, callback) {
   });
 }
 
-function calibrate(wire, callback)
+function calibrate(_wire, callback)
 {
+  wire = _wire;
+  
   readInteger(0xAA, function (err, res) {
     calibrations['0xAA'] = res;
 
