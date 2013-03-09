@@ -13,7 +13,7 @@ function readInteger(value, wire, address, callback) {
         if (err) {
           callback(err);
         } else {
-          callback(null, buf.readUInt8(0) << 8 | buf.readUInt8(1));
+          callback(null, buf.readUInt16BE(0));
         }
       });
     }
