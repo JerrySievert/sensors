@@ -1,0 +1,22 @@
+{
+  "name": "sensors",
+  "version": "0.0.0",
+  "description": "Sensors!",
+  "main": "index.js",
+  "dependencies": {
+    "i2c": "~0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.legitimatesounding.com/JerrySievert/sensors.git"
+  },
+  "keywords": [
+    "sensors"
+  ],
+  "author": "Jerry Sievert",
+  "license": "BSD"
+}
